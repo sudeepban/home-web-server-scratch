@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Multiplayer Canvas Game</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #1a1a2e; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; font-family: monospace; color: #eee; }
+    h1 { margin-bottom: 12px; font-size: 1.2rem; letter-spacing: 2px; color: #aaa; }
+    canvas { border: 2px solid #444; background: #16213e; display: block; touch-action: none; max-width: 100%; }
+    #status { margin-top: 10px; font-size: 0.8rem; color: #666; }
+  </style>
+</head>
+<body>
+  <h1>MULTIPLAYER ARENA</h1>
+  <canvas id="canvas" width="800" height="600"></canvas>
+  <div id="status">Connecting...</div>
+  <script src="game.js"></script>
+</body>
+</html>
